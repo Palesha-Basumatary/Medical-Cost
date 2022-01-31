@@ -13,11 +13,11 @@ Since the medical cost is a continuous target variable, the task is a regression
 <br>
 Medical Cost refers to the medical bill based on their health conditions
 <br>
-**Mean Medical Cost:** 
+**Mean Medical Cost: 13349.1037$** 
 <br>
-**Max Medical Cost:** 
+**Max Medical Cost: 40373.9683$** 
 <br>
-**Min Medical Cost:** 
+**Min Medical Cost: 18.2489$** 
 
 
 ## Model(s) Used
