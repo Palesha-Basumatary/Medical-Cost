@@ -13,24 +13,19 @@ Since the medical cost is a continuous target variable, the task is a regression
 <br>
 Medical Cost refers to the medical bill based on their health conditions
 <br>
-**Mean Medical Cost: 13349.1037$** 
+**Mean Medical Cost:** 13349.1037$
 <br>
-**Max Medical Cost: 40373.9683$** 
+**Max Medical Cost:** 40373.9683$ 
 <br>
-**Min Medical Cost: 18.2489$** 
+**Min Medical Cost:** 18.2489$ 
 
 
 ## Model(s) Used
 
-This needs to be a description of the model used and a brief overview of how it works in theory (e.g taken of a CNN Model): 
+The models used for this task are Linear Regression, Polynomial Regression and Decision tree: 
 
-The network architecture used was a basic CNN model, with Max Pooling and ReLU Activation functions. Input images are resized to an optimal size and then fed into the **Convolutional layer**. These images are converted to their pixel values, which can be imagined as a three-dimensional matrix for the purpose of visualization. The **Convolutional layer** has a kernel. This kernel is generally a small matrix of specified kernel size mxnx3 (3 for RGB images). 
-<br>
+**-Linear Regression** is a supervised machine learning model. It is used to find linear relationship between the predictors and target value. The model is trained to find a suitable linear line having a minimum mean squared error using the training data. 
 
-**Rectified Linear Unit (ReLU)** is the activation layer used in CNNs.The activation function is applied to increase non-linearity in the CNN. Images are made of different objects that are not linear to each other.
+**-Polynomial Regression** is a supervised machine learnig model. It is used to find nth degree polynomial relationship between the dependent and independent values. The model is trained using the training data to fit the polynomial function having the least mean squared error.
 
-
-**Max Pooling:** A limitation of the feature map output of Convolutional Layers is that they record the precise position of features in the input. This means that small movements in the position of the feature in the input image will result in a different feature map. This can happen with re-cropping, rotation, shifting, and other minor changes to the input image. A common approach to addressing this problem from signal processing is called down sampling. This is where a lower resolution version of an input signal is created that still contains the large or important structural elements, without the fine detail that may not be as useful to the task.
-
-## Future Work
-Good ideas or strategies that you were not able to implement which you think can help  improve performance.
+**-Decision Tree** is a supervised machine learning model. The Decision tree works by spliting the data into nested categories.
