@@ -28,4 +28,4 @@ The models used for this task are Linear Regression, Polynomial Regression and D
 
 **-Polynomial Regression** is a supervised machine learnig model. It is used to find nth degree polynomial relationship between the dependent and independent values. The model is trained using the training data to fit the polynomial function having the least mean squared error.
 
-**-Decision Tree** is a supervised machine learning model. The Decision tree works by spliting the data into nested categories.
+**-Decision Tree** is a supervised machine learning model. The Decision tree works by spliting the data into tree-like structure.
